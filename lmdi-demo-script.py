@@ -1,4 +1,5 @@
 from typing import List
+from math import sinh
 
 
 class LmdiEmployee:
@@ -21,20 +22,22 @@ class LmdiEmployee:
 
     def _print_employee(self):
         return print(f'{self.name} {self.lastname}, created')
-    
-    
-    def _private_fucntion(self):
+
+    def _private_function(self):
         pass
-    
+
     def _private_fucntion2(self):
         pass
 
-    
+
 
 
 if __name__ == "__main__":
 
     nick = LmdiEmployee("Nick", "Polman")
     jeffey = LmdiEmployee("jeffrey", "?")
+    jimmy =  LmdiEmployee("Jimmy","Hendriks")
+
     nick.change_name('nickolasandros')
+    jimmy.change_name('')
     print(nick.name)
