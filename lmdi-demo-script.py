@@ -26,12 +26,6 @@ class LmdiEmployee:
     def _private_function(self):
         pass
 
-    def _private_fucntion2(self):
-        pass
-
-    def _private_function3(self):
-        pass
-
 
 if __name__ == "__main__":
 
